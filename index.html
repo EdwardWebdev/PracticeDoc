@@ -11,28 +11,28 @@
         console.log('Hello world');
 
         const add7 = num => {
-            ans = num + 7
+            let ans = num + 7
             console.log(ans)
             return ans;
         }
         add7(3);
 
         const mult = (num1, num2) => {
-            ans = num1 * num2
+            let ans = num1 * num2
             console.log(ans)
             return ans;
         }
         mult(3, 5);
 
         const capitalize = (string) => {
-            newString = string.charAt(0).toUpperCase() + string.slice(1);
+            let newString = string.charAt(0).toUpperCase() + string.slice(1);
             console.log(newString)
             return newString;
         }
         capitalize('Hello');
 
         const lastLetter = (string) => {
-            letter = string.slice(-1)
+            let letter = string.slice(-1)
             console.log(letter)
             return letter;
         }
